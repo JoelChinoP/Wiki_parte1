@@ -44,7 +44,7 @@ foreach my $title (@registro){
 print "</ul>";
 print <<HTML;
   <hr>
-  <a href="../new.html">Nueva página</a>
+  <a href="../crear.html">Nueva página</a>
   <br>
   <a href="../index.html">Volver al inicio</a>
   </body>

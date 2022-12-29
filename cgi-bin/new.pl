@@ -25,7 +25,7 @@ print <<BLOCK;
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Pagina wiki</title>
+  <title>Wiki</title>
   </head>
     <body>
     <h1>$titulo</h1>
@@ -46,7 +46,7 @@ print <<BLOCK;
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Pagina wiki</title>
+  <title>Wiki</title>
   </head>
     <body>
     <h1>$title</h1>
