@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Nueva página</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <form action="cgi-bin/new.pl" method="GET">
+      <label for="titulo">Título</label>
+      <input type="text" placeholder="Escribe el título..." maxlength="100" name="titulo" id="titulo" >
+      <br>
+      <label for="markdown">Texto</label>
+      <br>
+      <textarea placeholder="Escribe el texto..." style="width: 313px; height: 227px;" maxlength="255" name="markdown" rows="15" cols="17" id="markdown"></textarea>
+      <br>
+      <input type="submit">
+    </form>
+    <a href="cgi-bin/list.pl">Cancelar</a>
+  </body>
+</html>
